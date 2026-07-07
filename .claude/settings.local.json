@@ -31,7 +31,20 @@
       "Bash(timeout 90 ./gradlew runServer --console=plain -q)",
       "Bash(find run *)",
       "Bash(find . -path ./run -prune -o -iname \"*.log\" -newer /tmp/raw_ids.txt -print)",
-      "Bash(python3 -c \"import json; json.load\\(open\\('/run/media/overlord/External/Codebases/SorryIAteEverything/src/main/resources/assets/sorryiateeverything/lang/en_us.json'\\)\\)\")"
+      "Bash(python3 -c \"import json; json.load\\(open\\('/run/media/overlord/External/Codebases/SorryIAteEverything/src/main/resources/assets/sorryiateeverything/lang/en_us.json'\\)\\)\")",
+      "Skill(run)",
+      "Bash(java -version)",
+      "Bash(lspci)",
+      "Bash(nohup ./gradlew runClient)",
+      "Bash(echo \"started PID $!\")",
+      "Bash(break)",
+      "Bash(unzip -l /home/overlord/.gradle/caches/neoformruntime/artifacts/minecraft_26.2_client.jar)",
+      "Bash(unzip -p /home/overlord/.gradle/caches/neoformruntime/artifacts/minecraft_26.2_client.jar assets/minecraft/items/stick.json)",
+      "Bash(unzip -p /home/overlord/.gradle/caches/neoformruntime/artifacts/minecraft_26.2_client.jar assets/minecraft/items/beef.json)",
+      "Bash(unzip -p /home/overlord/.gradle/caches/neoformruntime/artifacts/minecraft_26.2_client.jar assets/minecraft/models/item/beef.json)",
+      "Bash(mv item/strider_leg.png textures/item/strider_leg.png)",
+      "Bash(mv item/strider_leg_cooked.png textures/item/strider_leg_cooked.png)",
+      "Bash(rmdir item *)"
     ]
   }
 }
