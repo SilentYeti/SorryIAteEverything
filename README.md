@@ -1,3 +1,7 @@
+Sorry, I Ate Everything
+=======
+
+Ever notice how all these new mobs have no item drops? Well, now they do! Every mob now has a new meat variant you can collect and cook. 
 
 Installation information
 =======
