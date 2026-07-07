@@ -5,11 +5,7 @@ Ever notice how all these new mobs have no item drops? Well, now they do! Every 
 
 Installation information
 =======
-
-This template repository can be directly cloned to get you started with a new
-mod. Simply create a new repository cloned from this one, by following the
-instructions provided by [GitHub](https://docs.github.com/en/repositories/creating-and-managing-repositories/creating-a-repository-from-a-template).
-
+You can just go to releases, and if I haven't released it, then clone it. The base repo is built for Neoforge 26.2.
 Once you have your clone, simply open the repository in the IDE of your choice. The usual recommendation for an IDE is either IntelliJ IDEA or Eclipse.
 
 If at any point you are missing libraries in your IDE, or you've run into problems you can
