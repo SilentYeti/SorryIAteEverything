@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": "sorryiateeverything:allay_fillet",
+  "result": {
+    "id": "sorryiateeverything:cooked_allay_fillet"
+  }
+}

@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": "sorryiateeverything:dolphin_blubber",
+  "result": {
+    "id": "sorryiateeverything:cooked_dolphin_blubber"
+  }
+}

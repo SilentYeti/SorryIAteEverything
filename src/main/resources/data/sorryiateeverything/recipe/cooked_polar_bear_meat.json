@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "experience": 0.35,
+  "ingredient": "sorryiateeverything:polar_bear_meat",
+  "result": {
+    "id": "sorryiateeverything:cooked_polar_bear_meat"
+  }
+}

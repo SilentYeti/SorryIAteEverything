@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 0.35,
+  "ingredient": "sorryiateeverything:bat_wings",
+  "result": {
+    "id": "sorryiateeverything:cooked_bat_wings"
+  }
+}

@@ -1,0 +1,13 @@
+{
+  "type": "sorryiateeverything:add_item",
+  "conditions": [
+    {
+      "condition": "minecraft:entity_properties",
+      "entity": "this",
+      "predicate": {
+        "minecraft:entity_type": "minecraft:polar_bear"
+      }
+    }
+  ],
+  "item": "sorryiateeverything:polar_bear_meat"
+}

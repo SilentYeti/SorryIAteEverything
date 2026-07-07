@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 0.35,
+  "ingredient": "sorryiateeverything:panda_meat",
+  "result": {
+    "id": "sorryiateeverything:cooked_panda_meat"
+  }
+}

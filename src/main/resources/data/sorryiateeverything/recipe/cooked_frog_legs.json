@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "experience": 0.35,
+  "ingredient": "sorryiateeverything:frog_legs",
+  "result": {
+    "id": "sorryiateeverything:cooked_frog_legs"
+  }
+}

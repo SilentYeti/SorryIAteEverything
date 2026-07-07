@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "experience": 0.35,
+  "ingredient": "sorryiateeverything:turtle_soup_meat",
+  "result": {
+    "id": "sorryiateeverything:cooked_turtle_soup_meat"
+  }
+}

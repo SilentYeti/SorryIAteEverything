@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": "sorryiateeverything:iron_shavings",
+  "result": {
+    "id": "sorryiateeverything:cooked_iron_shavings"
+  }
+}

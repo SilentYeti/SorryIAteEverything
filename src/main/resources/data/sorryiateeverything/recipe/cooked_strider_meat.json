@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smelting",
+  "category": "food",
+  "experience": 0.35,
+  "ingredient": "sorryiateeverything:strider_meat",
+  "result": {
+    "id": "sorryiateeverything:cooked_strider_meat"
+  }
+}

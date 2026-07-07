@@ -1,0 +1,10 @@
+{
+  "type": "minecraft:campfire_cooking",
+  "category": "food",
+  "cookingtime": 600,
+  "experience": 0.35,
+  "ingredient": "sorryiateeverything:snow_golem_slush",
+  "result": {
+    "id": "sorryiateeverything:cooked_snow_golem_slush"
+  }
+}

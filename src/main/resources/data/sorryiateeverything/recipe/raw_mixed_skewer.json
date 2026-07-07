@@ -1,0 +1,12 @@
+{
+  "type": "minecraft:crafting_shapeless",
+  "category": "misc",
+  "ingredients": [
+    "minecraft:stick",
+    "#sorryiateeverything:raw_meats",
+    "#sorryiateeverything:raw_meats"
+  ],
+  "result": {
+    "id": "sorryiateeverything:raw_mixed_skewer"
+  }
+}

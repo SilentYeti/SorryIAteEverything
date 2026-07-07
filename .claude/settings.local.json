@@ -1,0 +1,36 @@
+{
+  "permissions": {
+    "allow": [
+      "Bash(find / -iname \"LootModifier.java\")",
+      "Bash(find / -path \"*neoforge*common/loot*\" -iname \"*.java\")",
+      "Bash(./gradlew compileJava --console=plain -q)",
+      "Bash(xargs -I{} sh -c 'echo {}; unzip -l \"{}\" 2>/dev/null | grep -m1 \"animal/Cow\"')",
+      "Bash(unzip -l /home/overlord/.gradle/caches/neoformruntime/intermediate_results/decompile_a2c1def5df2bfdcefd3ba5958b698e023427bba8_output.jar)",
+      "Read(//tmp/lm_extract/**)",
+      "Bash(unzip -o -q /home/overlord/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.8-beta/ec3d2990f7f27ab358da4cdaad681e276ffb7c4/neoforge-26.2.0.8-beta-sources.jar \"net/neoforged/neoforge/common/loot/*\" -d .)",
+      "Read(//tmp/mcsrc/**)",
+      "Bash(unzip -o -q /home/overlord/.gradle/caches/neoformruntime/intermediate_results/decompile_a2c1def5df2bfdcefd3ba5958b698e023427bba8_output.jar \"net/minecraft/advancements/predicates/entity/EntityTypePredicate.java\" \"net/minecraft/advancements/predicates/entity/EntityPredicate.java\" -d .)",
+      "Bash(unzip -o -q /home/overlord/.gradle/caches/neoformruntime/intermediate_results/decompile_a2c1def5df2bfdcefd3ba5958b698e023427bba8_output.jar \"net/minecraft/core/RegistryCodecs.java\" -d .)",
+      "Bash(unzip -o -q /home/overlord/.gradle/caches/neoformruntime/intermediate_results/decompile_a2c1def5df2bfdcefd3ba5958b698e023427bba8_output.jar \"net/minecraft/world/level/storage/loot/LootContext.java\" -d .)",
+      "Bash(unzip -p /home/overlord/.gradle/caches/neoformruntime/intermediate_results/decompile_a2c1def5df2bfdcefd3ba5958b698e023427bba8_output.jar data/minecraft/loot_table/entities/cod.json)",
+      "Bash(unzip -p /home/overlord/.gradle/caches/neoformruntime/intermediate_results/decompile_a2c1def5df2bfdcefd3ba5958b698e023427bba8_output.jar data/minecraft/loot_table/entities/salmon.json)",
+      "Bash(unzip -p /home/overlord/.gradle/caches/neoformruntime/intermediate_results/decompile_a2c1def5df2bfdcefd3ba5958b698e023427bba8_output.jar data/minecraft/loot_table/entities/tropical_fish.json)",
+      "Bash(unzip -l /home/overlord/.gradle/caches/modules-2/files-2.1/net.neoforged/neoforge/26.2.0.8-beta/ec3d2990f7f27ab358da4cdaad681e276ffb7c4/neoforge-26.2.0.8-beta-sources.jar)",
+      "Bash(grep -iA5 -B5 \"mixin\")",
+      "Bash(unzip -p /home/overlord/.gradle/caches/neoformruntime/intermediate_results/decompile_a2c1def5df2bfdcefd3ba5958b698e023427bba8_output.jar \"net/minecraft/world/entity/animal/turtle/Turtle.java\")",
+      "Bash(unzip -p /home/overlord/.gradle/caches/neoformruntime/intermediate_results/decompile_a2c1def5df2bfdcefd3ba5958b698e023427bba8_output.jar)",
+      "Bash(unzip -o -q /home/overlord/.gradle/caches/neoformruntime/intermediate_results/decompile_a2c1def5df2bfdcefd3ba5958b698e023427bba8_output.jar \"net/minecraft/world/item/consume_effects/ApplyStatusEffectsConsumeEffect.java\" \"net/minecraft/world/item/component/Consumable.java\" -d .)",
+      "Bash(unzip -o -q /home/overlord/.gradle/caches/neoformruntime/intermediate_results/decompile_a2c1def5df2bfdcefd3ba5958b698e023427bba8_output.jar \"net/minecraft/world/level/storage/loot/LootTable.java\" -d .)",
+      "Bash(cut -d'|' -f2 /tmp/meat_table.tsv)",
+      "Bash(echo \"raw_mixed_skewer\")",
+      "Bash(read -r f)",
+      "Bash(python3 -c 'import json; json.load\\(open\\('\\\\''__TRACKED_VAR__'\\\\''\\)\\)')",
+      "Bash(./gradlew tasks *)",
+      "Bash(ls run *)",
+      "Bash(cat run/eula.txt)",
+      "Bash(timeout 90 ./gradlew runServer --console=plain -q)",
+      "Bash(find run *)",
+      "Bash(find . -path ./run -prune -o -iname \"*.log\" -newer /tmp/raw_ids.txt -print)"
+    ]
+  }
+}

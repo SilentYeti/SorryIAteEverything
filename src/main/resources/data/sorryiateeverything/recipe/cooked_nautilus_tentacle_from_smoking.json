@@ -1,0 +1,9 @@
+{
+  "type": "minecraft:smoking",
+  "category": "food",
+  "experience": 0.35,
+  "ingredient": "sorryiateeverything:nautilus_tentacle",
+  "result": {
+    "id": "sorryiateeverything:cooked_nautilus_tentacle"
+  }
+}
